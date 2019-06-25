@@ -47,6 +47,8 @@ if (count($dubles)) {
             }
 
         }
+         //Сброрс кеша
+        $modx->cacheManager->refresh();
 
 
     }
